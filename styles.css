@@ -1,0 +1,116 @@
+/* Estilos básicos */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: white;
+}
+
+header {
+  background-color: #1db954;
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.categories {
+  margin-bottom: 20px;
+}
+
+.category {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  background-color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.category:hover {
+  background-color: #1db954;
+}
+
+.songs {
+  margin-top: 30px;
+}
+
+.song-item {
+  background-color: #333;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.song-item:hover {
+  background-color: #444;
+}
+
+.song-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.song-desc {
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+footer {
+  background-color: #121212;
+  padding: 10px;
+  text-align: center;
+}
+
+footer a {
+  color: #b3b3b3;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+footer a:hover {
+  color: #1db954;
+}
+.song-player {
+  margin-top: 15px;
+}
+
+.play-button {
+  background-color: #1db954;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.play-button:hover {
+  background-color: #1aa143;
+}
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Spotify</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">JAS</div>
+      <input type="text" id="search-bar" placeholder="Buscar música..." class="search-bar">
+    </div>
+  </header>
+
+  <main>
+    <div class="categories">
+      <h2>Categorías</h2>
+      <div class="category" id="category-pop">Pop</div>
+      <div class="category" id="category-rock">Rock</div>
+      <div class="category" id="category-hiphop">Hip-Hop</div>
+      <div class="category" id="category-reggaeton">Reggaetón</div>
+      <div class="category" id="category-rmexicano">Regional Mexicano</div>
+    </div>
+
+    <div class="songs">
+      <h2>Lista de Canciones</h2>
+      <div id="song-list">
+        <!-- Las canciones se mostrarán aquí dinámicamente -->
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#">Inicio</a> | <a href="#">Buscar</a> | <a href="#">Biblioteca</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
